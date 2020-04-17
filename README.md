@@ -41,12 +41,12 @@ The themes have been built using [base16-builder-python](https://github.com/Insp
 
 #### Symbolic link
 
-   ln -s themes/base16-gruvbox-dark-medium.lua ~/.config/luakit/theme.lua
+    ln -s themes/base16-gruvbox-dark-medium.lua ~/.config/luakit/theme.lua
 
 #### Using color in your theme
 
 ```
-$ ln -s themes/base16-gruvbox-dark-medium.lua ~/.config/luakit/theme.lua
+$ ln -s colors/base16-gruvbox-dark-medium.lua ~/.config/luakit/color.lua
 
 -- theme.lua
 local c = require('color')
