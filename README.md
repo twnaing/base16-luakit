@@ -39,11 +39,11 @@ The themes have been built using [base16-builder-python](https://github.com/Insp
 
 ### Examples
 
-### Symbolic link
+#### Symbolic link
 
    ln -s themes/base16-gruvbox-dark-medium.lua ~/.config/luakit/theme.lua
 
-### Using color in your theme
+#### Using color in your theme
 
 ```
 $ ln -s themes/base16-gruvbox-dark-medium.lua ~/.config/luakit/theme.lua
@@ -55,3 +55,7 @@ local theme = {}
 
 theme.fg = c.base00
 ```
+
+### Credits
+
+- [base16-quteborowser](https://github.com/theova/base16-qutebrowser)
