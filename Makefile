@@ -1,6 +1,5 @@
 # This Makefile helps to generate themes of your base16 template.
 # It is meant to be executed inside the repository.
-# Example of folder structure: https://github.com/theova/base16-qutebrowser
 
 BUILD=pybase16
 REPO=$(shell pwd)
