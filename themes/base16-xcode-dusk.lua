@@ -42,7 +42,7 @@ theme.warning_fg = base00
 theme.warning_bg = base0E
 
 -- Notification colours
-theme.notif_fg = base0B
+theme.notif_fg = base00
 theme.notif_bg = base05
 
 -- Menu colours
