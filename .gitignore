@@ -8,5 +8,5 @@ base16-luakit.wiki
 
 # dont ignore the following files
 !templates/default.mustache
-!templates/minimal.mustache
+!templates/colors.mustache
 !templates/config.yaml

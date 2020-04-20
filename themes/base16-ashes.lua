@@ -102,10 +102,10 @@ theme.notrust_fg        = base0D
 -- Follow mode hints
 theme.hint_fg     = base00
 theme.hint_bg     = base0A
-theme.hint_border = string.format("1px dashed %s", base00)
+theme.hint_border = string.format("1px dashed %s", base0A)
 
 theme.hint_overlay_bg     = string.format("rgba(%s, 0.3)", hex2rgb(base07))
-theme.hint_overlay_border = string.format("1px dotted %s", base00)
+theme.hint_overlay_border = string.format("1px dotted %s", base07)
 
 theme.hint_overlay_selected_bg     = string.format("rgba(%s, 0.3)", hex2rgb(base0B))
 theme.hint_overlay_selected_border = theme.hint_overlay_border
@@ -121,4 +121,4 @@ theme.hint_font = "10px monospace, courier, sans-serif"
 
 return theme
 
--- vim: et:sw=4:ts=8:sts=4:tw=80
+-- vim: et:sw=4:ts=8:sts=4:tw=80:ft=lua
